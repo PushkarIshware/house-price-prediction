@@ -131,5 +131,12 @@ docker run -p 8000:8000 house-price-prediction
 }
 ```
 
+### ▶️ Test Cases
+Includes unit tests for the prediction logic to ensure reliability and correctness.
+
+- How to Run Tests:
+
+   `python3 -m unittest app.tests.test_prediction`
+
 ## ✅ Conclusion
 This project shows how to use machine learning to predict house prices, from data analysis and model training to making predictions through an API using FastAPI and Docker.
